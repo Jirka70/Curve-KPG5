@@ -16,7 +16,6 @@ public class CoonsCubic implements Curve {
             double y = (1 / 6.0) * (controlPoints[0].y * c0 + controlPoints[1].y * c1 + controlPoints[2].y * c2 + controlPoints[3].y * c3);
             l.add(new Point(x,y));
         }
-
         return l;
     }
 }
