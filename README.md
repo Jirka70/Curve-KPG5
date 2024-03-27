@@ -92,4 +92,11 @@ Project is made in the JavaFX framework. Just pull this project and launch Main 
   Snapshot from application of <b>Coons Cubic</b>
 </p>
 
+# References
+
+http://home.zcu.cz/~bastl/GM1/GM1_lecture05.pdf
+http://afrodita.zcu.cz/~kolinger/KPG/KPG10_ENG.pdf
+https://en.wikipedia.org/wiki/B%C3%A9zier_curve
+https://en.wikipedia.org/wiki/Spline_(mathematics)
+
 
