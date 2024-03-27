@@ -39,3 +39,23 @@ Project is made in the JavaFX framework. Just pull this project and launch Main 
   Snapshot from application of <b>Cubic Bezier</b>
 </p>
 
+- **Quadratic Bezier**
+  - similar to the Cubic Bezier curve
+  - curve is defined only by 3 control points
+  - curve is also opened
+  - Formula: $` (1 - t)^2 P_0 + 2(t - 1) t P_1 + t^2 P_2`$
+    - where $`t`$ stands for parameter in range of `[0, 1]`
+    - where $`P_i`$ stands for ith control point of the curve
+
+<p align="center">
+  <img width="437" alt="Bildschirmfoto 2024-03-27 um 5 20 32 PM" src="https://github.com/Jirka70/Curve-KPG5/assets/120426468/88190073-ac43-4492-aa56-90645e011df2">
+  <br>
+  Snapshot from application of <b>Quadratic Bezier</b>
+</p>
+
+- **Catmull Rom**
+  - curve is defined by 4 control points
+  - curve is also opened
+  - curve is computed point by point with `evaluateCatmullRom()` in the `CatmullRom` class
+  - Basically `4 x 4` basis matrix is introduced there
+  - each point is computed 
