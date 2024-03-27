@@ -8,7 +8,9 @@
 Project is made in the JavaFX framework. Just pull this project and launch Main class in your favorite Java IDE
 
 # About application
+- On the beginning, application displays only 5 buttons. When a button is clicked, certain curve with control points will be shown
 - Application can create 5 different types of curves
+- User can freely drag control points (black dots) wherever he wants to. Curve will adapt to the change, user made immediately
 
   
 - **Cubic B-spline**  
